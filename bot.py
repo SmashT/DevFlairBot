@@ -50,7 +50,6 @@ while True:
             for post_id in posts_tagged:
                 f.write(post_id + "\n")
 
-
     except Exception as e:
         print(e)
     time.sleep(5)
